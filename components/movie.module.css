@@ -1,0 +1,34 @@
+.card {
+  max-width: 30rem;
+  margin: 3rem auto;
+  background-color: rgb(226, 226, 225);
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding-bottom: 1.5rem;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+
+.date {
+  color: rgb(71, 71, 197);
+  background-color: rgba(71, 71, 197, 0.2);
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+}
